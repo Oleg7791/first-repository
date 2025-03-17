@@ -1,3 +1,4 @@
-str1 = 'oleg' " hello",' world'
+str1 = 'oleg', ' hello',' world'
 print(str1)
-print(str1[1])
+lis = [i for i in str1]
+print(lis)
